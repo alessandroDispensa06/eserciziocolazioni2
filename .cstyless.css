@@ -1,0 +1,133 @@
+body{ margin:center
+    background-color= #eee8e0;
+}
+
+@font-face{
+    src: url(BeVietnamPro-Regular.ttf);
+    font-family: 'BeVietnamPro';
+ }
+ @font-face {
+    font-family: 'HammersmithOne';
+    src: url(HammersmithOne-Regular.ttf);
+ }
+
+ @font-face {
+    font-family: 'Montserrat';
+    src: url(Montserrat-VariableFont_wght.ttf);
+ }
+
+.titolo {
+    color: rgb(0, 0, 0);
+    font-family: 'HammersmithOne', sans-serif;
+    text-align: center;
+position: absolute;
+width: 1228px;
+height: 300px;
+left: 130px;
+top: 100px;
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 150px;
+
+}
+
+.imgcontainer{
+   
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.5));
+    transform: translateX(30px);
+
+    opacity: 0.6;
+}  
+
+h1{
+    font-family: '', sans-serif;
+    position:absolute;
+    top: 10px;
+    opacity: 1;
+}
+  
+
+h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 110px;
+    
+    color: #E6A581;
+    
+}
+
+p{ font-family: 'BeVietnamPro', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 38px;
+
+color: #000000;
+}
+
+.elemento{
+    height: 500px;
+    left: 6px;
+    top: 1000px;
+}
+
+.par1{
+      right: 120px;
+      top: 500px;
+      transform: translateX(400px) translateY(-100px);
+      position: relative;
+width: 740px;
+height: 368px;
+left: 350px;
+top: 392px;
+
+font-family: 'Be Vietnam Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 38px;
+
+color: #000000;
+
+
+}
+.foto{
+   height: 400px;
+   border-radius: 100%;
+  
+}
+
+.footer{
+       background-color: #ffffff;
+       height: 600px;
+       
+}
+.textfooter{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 90px;
+    line-height: 110px;
+    
+}
+
+.islanda{
+    transform: translateY(-150px);
+}
+
+.danimarca{
+    transform: translateY(-150px);
+}
+
+.irlanda{
+    transform: translateY(-150px);
+}
+
+.pfooter{
+    
+color: #000000;
+    transform: translateX(30px);
+}
